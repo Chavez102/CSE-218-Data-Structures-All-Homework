@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="399.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="generic_Binary_Search.Main_Page_Controller">
+   <children>
+      <AnchorPane prefHeight="308.4" prefWidth="466.20000000000005" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ChoiceBox fx:id="Type_Object_choicebox" layoutX="333.0" layoutY="56.0" prefWidth="150.0" />
+            <Text layoutX="73.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What would you like your bag to contain" />
+            <Button fx:id="Find_Max_btn" layoutX="68.0" layoutY="134.0" mnemonicParsing="false" onAction="#Find_Max_btn_Pressed" text="Find Max" />
+            <Button fx:id="Find_MIn_btn" layoutX="377.0" layoutY="134.0" mnemonicParsing="false" onAction="#F" text="Find Min" />
+            <Button fx:id="delete_Max_btn" layoutX="69.0" layoutY="174.0" mnemonicParsing="false" onAction="#Delete_Max_btn_Pressed" text="Delete Max" />
+            <Button fx:id="delete_Min_btn" layoutX="371.0" layoutY="174.0" mnemonicParsing="false" onAction="#Delete_Min_btn_Pressed" text="Delete Min" />
+            <Button fx:id="Insertion_Sort_btn" layoutX="289.0" layoutY="234.0" mnemonicParsing="false" onAction="#insertion_Sort_btn_Pressed" text="insertion Sort" />
+            <Button fx:id="add_btn" layoutX="333.0" layoutY="97.0" mnemonicParsing="false" onAction="#Add_btn_Pressed" text="Add" />
+            <Button fx:id="Display_btn" layoutX="153.0" layoutY="234.0" mnemonicParsing="false" onAction="#Display_btn_Pressed" text="Display" />
+            <TextField fx:id="newelement_TextField" layoutX="140.0" layoutY="97.0" />
+            <Text fx:id="Max_text" layoutX="175.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max" />
+            <Text fx:id="Min_text" layoutX="483.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min" />
+            <TextArea fx:id="Output_TextField" layoutX="71.0" layoutY="265.0" prefHeight="114.0" prefWidth="480.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
