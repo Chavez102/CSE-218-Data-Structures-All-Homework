@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="airport_Operation.GUI_Controller">
+   <children>
+      <AnchorPane layoutX="-8.0" prefHeight="500.0" prefWidth="635.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="228.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flight Priority">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="Flight_num_textfield" layoutX="60.0" layoutY="105.0" prefHeight="26.0" prefWidth="80.0" text="2" />
+            <TextField fx:id="Airline_Name_textfield" layoutX="208.0" layoutY="106.0" prefWidth="90.0" text="name" />
+            <TextField fx:id="Landing_priority_textfield" layoutX="487.0" layoutY="106.0" prefWidth="90.0" promptText="1-10" text="5" />
+            <TextField fx:id="time_Stamp_textfield" layoutX="341.0" layoutY="106.0" prefWidth="90.0" promptText="format 00:00" text="02:00" />
+            <Text layoutX="62.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fligth Number" />
+            <Text layoutX="208.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Airline Name" />
+            <Text layoutX="354.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time Stamp" />
+            <Text layoutX="487.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Landing Priority" />
+            <Button fx:id="Add_Flight_btn" layoutX="541.0" layoutY="163.0" mnemonicParsing="false" onAction="#Add_Flight_btn_Pressed" text="Add Flight" />
+            <TextArea fx:id="TextArea" layoutX="40.0" layoutY="213.0" prefHeight="262.0" prefWidth="579.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
