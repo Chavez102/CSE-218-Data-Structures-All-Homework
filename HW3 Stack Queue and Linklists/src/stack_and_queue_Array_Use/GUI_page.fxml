@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stack_and_queue_Array_Use.GUI_Controller">
+   <children>
+      <AnchorPane layoutX="-8.0" layoutY="-7.0" prefHeight="500.0" prefWidth="635.2" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="-7.0">
+         <children>
+            <Button fx:id="Insert_btn" layoutX="318.0" layoutY="124.0" mnemonicParsing="false" onAction="#insert_btn_clicked" text="QUEUE INSERT" />
+            <Button fx:id="pop_btn" layoutX="179.0" layoutY="124.0" mnemonicParsing="false" onAction="#Pop_btn_clicked" text="STACK POP" />
+            <Button fx:id="push_btn" layoutX="59.0" layoutY="124.0" mnemonicParsing="false" onAction="#Push_btn_clicked" text="STACK PUSH" />
+            <Button fx:id="remove_btn" layoutX="446.0" layoutY="124.0" mnemonicParsing="false" onAction="#remove_btn_clicked" text="QUEUE REMOVE" />
+            <TextField fx:id="Name_textfield" layoutX="69.0" layoutY="75.0" promptText="NAME" />
+            <TextField fx:id="GPA_textfield" layoutX="333.0" layoutY="75.0" prefHeight="26.0" prefWidth="190.0" promptText="GPA" />
+            <Text layoutX="228.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stack and Queue">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextArea fx:id="left_textArea" layoutX="39.0" layoutY="184.0" prefHeight="242.0" prefWidth="238.0" />
+            <TextArea fx:id="right_TextArea" layoutX="338.0" layoutY="184.0" prefHeight="242.0" prefWidth="246.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
